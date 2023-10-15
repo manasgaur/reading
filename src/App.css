@@ -1,0 +1,49 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1519682577862-22b62b24e493?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2970&q=80');
+  background-color: bisque;
+
+}
+.main{
+  width: 60vw;
+  height: 60vh;
+  margin: auto;
+  /* background-color: rgba(255, 255, 255, 0.428); */
+  
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position:center;
+  /* background-color: rgb(154, 117, 117); */
+  background-color: rgba(0,0,0, 0.6);
+  border-radius: 2%;
+  padding: 2%;
+  text-align: center;
+  color:white;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main a{
+  color: #f2f2f2;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+
+
